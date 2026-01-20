@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(212, 231, 158);
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: brown;
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 70px;
+    text-align: center;
+}
+#historia{
+    background-color: rgb(228, 243, 255);
+}
+#reglas{
+    background-color: aqua;
+}
+#mundiales{
+    background-color: aquamarine;
+}
+#formulario{
+    background-color: rgb(95, 173, 105);
+}
+#geoloc{
+    background-color: rgb(88, 166, 230);
+}
+#enlaces{
+    font-size: 0.9em;
+}
+#enlaces a{
+    color: rgb(202, 52, 52);
+    text-decoration: none;
+}
+#enlaces a:hover{
+    color: black;
+}
+#contador{
+    text-decoration: none;
+}
+footer{
+    text-align: left;
+}

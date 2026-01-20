@@ -1,0 +1,110 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 3em;
+    color: goldenrod;
+    text-shadow: 3px 3px 5px gold;
+}
+h2{
+    color: orange;
+    text-shadow: 2px 2px 5px black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(238, 51, 51);
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    padding: 4px 70px;
+    background-color: rgb(82, 202, 82);
+    text-align: center;
+    margin-left: 450px;
+    text-decoration: none;
+}
+
+.seccion{
+    text-align: center;
+    width:400px;
+    border:1px rgb(204, 22, 22) solid;
+    border-radius:13px;
+    background-color: aquamarine;
+    padding:5px 5px 22px 5px;
+}
+.sec{
+    text-align: center;
+    width:400px;
+    border:1px rgb(204, 22, 22) solid;
+    border-radius:13px;
+    background-color: aquamarine;
+    padding:5px 5px 22px 5px;
+    margin-top: 700px;
+}
+
+#contenido{
+    margin: 0 auto;
+    width: 1100px;
+}
+
+#pista{
+    color: green;
+}
+#balon{
+    color: blue;
+}
+#cama{
+    color: red;
+}
+#puntuacion{
+    color: red;
+}
+#reglas{
+    color: green;
+}
+
+#detalles{
+    width: 500px;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+    box-shadow: 20px 20px 10px black;
+}
+
+#video{
+    font-size: 1.5em;
+    color: black;
+}
+#video:hover{
+    color: rgb(255, 50, 50);
+}
+
+#tutorial{
+    width: 500px;
+    float: left;
+    text-align: center;
+    box-shadow: 20px 20px 10px black;
+}
+
+ul{
+    text-align: left;
+}
+
+footer{
+    text-align: left;
+    clear: both;
+}
+#regreso{
+    color: rgb(22, 189, 189);
+    text-decoration: none;
+}
+#regreso:hover{
+    color: green;
+}

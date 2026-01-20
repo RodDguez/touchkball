@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow">
+    <meta name="description" content="Página de iniciación al touchball para E.F.">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="Imágenes/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="CSS rod/EstiloFormulario_Rodrigo Domínguez García.css" type="text/css">
+
+    <title>Formulario del touchball</title>
+</head>
+
+<body>
+    <header>
+        <h1>FORMULARIO</h1>
+    </header>
+
+    <main>
+        <section>
+            <form method="post">
+                <fieldset>
+                    <legend>Datos personales</legend>
+                    Nombre: <input type="text" name="nombre" size="38" placeholder="Su nombre"
+                        title="Escriba su nombre para poder referirnos a usted correctamente." autofocus autocomplete><br>
+                    Correo electrónico: <input type="email" name="mail" size="28"
+                        title="Escriba su correo electrónico para poder comunicarnos con usted lo antes posible."
+                        placeholder="nombre@servidor.com" required autocomplete><br>
+                </fieldset>
+    
+                <fieldset>
+                    <legend>Datos del touchball</legend>
+                    
+                    <p>
+                        ¿Qué te parecen los valores de deportividad que propone el touchball?<br>
+                        <input type="radio" name="opinión" value="sinplantear" checked /> Muy mal
+                        <input type="radio" name="opinión" value="enplanificacion" /> Mal
+                        <input type="radio" name="opinión" value="enejecucion" /> Regular
+                        <input type="radio" name="opinión" value="finalizado" /> Bien
+                        <input type="radio" name="opinión" value="finalizado" /> Muy bien
+                    <p>
+                        ¿Cómo has conocido el touchball?<br>
+                        <textarea name="descripción"></textarea><br>
+
+                        Ganas de jugar al touchball(%):
+                        <input type="number" name="porcentaje de ganas" value="100" min="1" max="100" step="1">
+                    </p>
+                </fieldset>
+                <input id="boton_enviar" type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <h4><a id="regreso" href="index.html">Vuelta a la página inicial</a></h4>
+    </footer>
+</body>

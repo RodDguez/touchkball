@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+h1{
+    color:rgb(138, 136, 41);
+}
+
+nav{
+    text-align: left;
+}
+#regreso{
+    color: aqua;
+    text-decoration: none;
+}
+
+#regreso:hover{
+    color: green;
+}
+
+th{
+    font-size: 3em;
+    color: gold;
+    background-color: rgb(66, 70, 77);
+}
+
+.mundiales{
+    border: 5px solid green;
+    margin: 0 auto;
+}
+.mundiales th, .mundiales td{
+    border: 1px solid rgb(138, 136, 41);
+}
+
+.fila{
+    visibility: hidden;
+}
+
+.boton{
+    background-color: aliceblue;
+    color: rgb(131, 98, 55);
+}
+
+#Leyenda{
+    color: green
+}
+
+td.Suiza{
+    color: white;
+    background-color: red;
+}
+td.Taiwán{
+    background-color: rgb(41, 95, 245);
+    color: red;
+}
+td.Francia{
+    background-color: white;
+    color: blue;
+}
+td.Italia{
+    background-color: rgb(16, 138, 16);
+    color: red;
+}
+td.RepúblicaCheca{
+    background-color: rgb(3, 3, 156);
+    color: white;
+}
+td.Malasia{
+    background-color: rgb(218, 105, 105);
+    color: blue;
+}
+
+#años {
+    background-color: rgba(75, 29, 82, 0.699);
+}

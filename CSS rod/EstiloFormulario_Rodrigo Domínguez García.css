@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(65, 54, 54);
+    color: rgb(255, 255, 255);
+}
+
+#regreso{
+    color: aqua;
+    text-decoration: none;
+}
+
+#regreso:hover{
+    color: green;
+}
+
+h1{
+    color: rgb(196, 179, 84);
+    text-align: center;
+}
+
